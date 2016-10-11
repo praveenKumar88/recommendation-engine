@@ -1,7 +1,5 @@
 package org.grails.recommendation
 
-import org.grails.recommendation.auth.Person
-
 class StatusTagLib {
     static namespace = 'recommendation'
 
