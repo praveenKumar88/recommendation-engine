@@ -82,16 +82,17 @@
             <h1>Application Status</h1>
             <ul>
                 <li>Environment: MAUI</li>
-                <li>OperationName: customerEmailAddress</li>
-                <li>recommendationType: content based recommender</li>
-                <li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
             </ul>
         </div>
         <div id="page-body" role="main">
-            <h1>Welcome to the solr recommendation engine</h1>
-            <p>This is a simple application which demonstrates metasearch recommendations.</p>
-            <p>
-                Click <g:link controller="status">here</g:link> to access the main part of the system.
+            <h1>List of projects</h1>
+            <br><h5>1) FunctionalTests</h5>
+            <br><h5>2) CollaborativeFiltering</h5>
+            <br><h5>3) Content based recommendations</h5>
+            <br><h5>4) Cloud performance</h5>
+            <br><h5>5) Fuzzy search</h5>
+            <br><p>
+                Click <g:link controller="status">here</g:link> to login.
             </p>
         </div>
     </body>
